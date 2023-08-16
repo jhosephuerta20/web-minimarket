@@ -287,12 +287,13 @@ footer {
 
 /* RESPONSIVE MOBILE */
 
-/* ESTILOS DEL HEADER */
+/* ESTILOS DEL LOGO */
 
 @media (min-width:320px) and (max-width:575px) {
 
     header {
-        height: 60px;
+        height: 45px;
+        width: 100%;
     }
     .logo .logo01 {
         display: none;
@@ -300,23 +301,26 @@ footer {
 
     .logo .logo02 {
         display: block;
-        height: 100%;
-    }
-    .main-menu {
         height: 43px;
-        margin: 0px;
-    }
-    .logo {
-        margin: 0px;
-        height: 43px;
-        width: 63px;
+       
     }
 
+    .logo {
+        margin: 3px 0px 0px 18px;
+        height: 43px;
+    }
+
+}
+
+/* ESTILOS DEL MENU DE OPCIONES */
+
+@media (min-width:320px) and (max-width:575px) {
+
+    .main-menu {
+        margin: 0px 0px 0px 14px;
+    }
     .main-menu ul li a  {
-        width: 40px;
-        height: 24px;
         font-size: 12px;
-        font-weight: 400;
     }
 
     .main-menu ul {
@@ -325,11 +329,13 @@ footer {
     }
 
     .main-menu ul li {
-        width: 50px;
-        height: 24px;
-        margin: 10px 20px 0px 0px;
+        margin: 14px 20px 0px 0px;
     }
+}
 
+/* ESTILOS DEL USER Y CAR  */
+
+@media (min-width:320px) and (max-width:575px) {
     .user .user01 {
         display: none;
     }
@@ -351,17 +357,22 @@ footer {
     }
 
     .car {
-        margin:  24px 0px 0px 0px ;
-        height: 30px;
-        width: 30px;
+        margin:  14px 17px 0px 0px ;
+        width: 25px;
+        height: 25px;
     }
 
     .user {
-        margin: 9px 15px 0px 0px ;
-        height: 25px;
+        margin: 10px 17px 0px 0px ;
         width: 25px;
+        height: 25px;
     }
+
 }
+
+    
+
+    
 
 @media (min-width:320px) and (max-width:575px) {
     section {
