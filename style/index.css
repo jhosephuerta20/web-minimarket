@@ -306,7 +306,7 @@ footer {
     }
 
     .logo {
-        margin: 3px 0px 0px 18px;
+        margin: 3px 0px 0px 14px;
         height: 43px;
     }
 
@@ -322,6 +322,10 @@ footer {
     }
     .main-menu ul li a  {
         font-size: 12px;
+    }
+
+    .main-menu .li_none {
+        display: none;
     }
 
     .main-menu ul {
