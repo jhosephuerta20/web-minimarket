@@ -37,7 +37,7 @@ header {
     list-style-type: none;
     margin-left: 60px;
     margin-right: 65px;
-    
+
 }
 
 .main-menu ul li a{
@@ -75,7 +75,7 @@ header {
     width: 100%;
     height: 610px;
     background-color: #65C0F2;
-} 
+}
 
 .section h1 {
     font-family: 'Roboto', sans-serif;
@@ -117,7 +117,7 @@ header {
     position: absolute;
     margin-top: 150px;
     padding-left: 180px;
-} 
+}
 
 .preserves {
     height: 400px;
@@ -166,7 +166,7 @@ header {
     margin-left: 50px;
     background-color: #fff;
 }
-   
+
 /* SECTION PRODUCTS STYLES */
 
 .products .section-products {
@@ -193,7 +193,7 @@ header {
 
 .cards-section .pescado {
     padding-bottom: 7px;
-} 
+}
 
 .cards-section .images-products {
     width: 20px;
@@ -245,7 +245,7 @@ footer {
     font-weight: 700;
     margin-bottom: 0px;
     margin-left: 59px;
-    
+
 }
 
 .location h1 {
@@ -287,13 +287,14 @@ footer {
 
 /* RESPONSIVE MOBILE */
 
-/* ESTILOS DEL LOGO */
+/* ESTILOS RESPONSIVE MOBILE LOGO */
 
 @media (min-width:320px) and (max-width:575px) {
 
     header {
         height: 45px;
         width: 100%;
+        margin-bottom: 5px;
     }
     .logo .logo01 {
         display: none;
@@ -302,7 +303,6 @@ footer {
     .logo .logo02 {
         display: block;
         height: 43px;
-       
     }
 
     .logo {
@@ -312,11 +312,12 @@ footer {
 
 }
 
-/* ESTILOS DEL MENU DE OPCIONES */
+/* ESTILOS RESPONSIVE MOBILE MENU DE OPCIONES */
 
 @media (min-width:320px) and (max-width:575px) {
 
     .main-menu {
+        width: 100%;
         margin: 0px 0px 0px 14px;
     }
     .main-menu ul li a  {
@@ -329,11 +330,12 @@ footer {
     }
 
     .main-menu ul li {
+        width: 100%;
         margin: 14px 20px 0px 0px;
     }
 }
 
-/* ESTILOS DEL USER Y CAR  */
+/* ESTILOS RESPONSIVE MOBILE USER Y CAR  */
 
 @media (min-width:320px) and (max-width:575px) {
     .user .user01 {
@@ -347,7 +349,7 @@ footer {
     .user .user02 {
         display: block;
     }
-    
+
     .car .car02 {
         display: block;
     }
@@ -358,30 +360,165 @@ footer {
 
     .car {
         margin:  14px 17px 0px 0px ;
-        width: 25px;
+        width: 100%;
         height: 25px;
     }
 
     .user {
         margin: 10px 17px 0px 0px ;
-        width: 25px;
+        width: 100%;
         height: 25px;
     }
 
 }
 
-    
-
-    
+/* ESTILOS RESPONSIVE MOBILE PAGE BANNER SECTION  */
 
 @media (min-width:320px) and (max-width:575px) {
-    section {
+    .section .banner02 {
         display: none;
     }
-    main {
+
+    .section {
+        width: 100%;
+        height: 181px;
+    }
+
+    .section h1 {
+        color: #F4EEEE;
+        font-size: 24px;
+        margin: 4px 0px 0px 20px;
+        padding-top: 5px;
+    }
+
+    .banner .br {
         display: none;
     }
+
+    .banner p {
+        color: #000;
+        font-size: 20px;
+        margin: 11px 0px 0px 10px;
+        padding: 0px;
+    }
+
+    .banner p span {
+        color: #FFF;
+        font-size: 24px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .banner .cards {
+        margin-top: 5px;
+    }
+
+    .cards .black {
+        width: 139px;
+        height: 139px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .cards .preserves img {
+        width: 58px;
+        height: 139px;
+    }
+
+    .cards .preserves {
+        margin-left: -11px;
+        margin-top: -140px;
+    }
+}
+
+/* ESTILOS RESPONSIVE MOBILE SECTION OFFERS */
+
+@media (min-width:320px) and (max-width:575px) {
+    .section-offers h1 {
+        width: 100%;
+        height: 38px;
+        background-color: #F42941;
+        color: #000;
+        font-size: 20px;
+        text-align: center;
+        padding: 6px 0px 0px 0px ;
+    }
+
+    .cards-offers .card-none {
+        display: none;
+    }
+
+    .cards-offers .prodru {
+        margin-right: 35px !important;
+    }
+
+    .cards-offers .cards-products {
+        width: 172px;
+        height: 281px;
+        margin: 2px 0px 0px 28px ;
+    }
+
+    .cards-offers .cards-products p {
+        width: 100%;
+        height: 89px;
+        font-size: 15px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .cards-offers .cards-products hr {
+        width: 137px;
+    }
+
+    .cards-offers .cards-products .img_milk {
+        width: 100%;
+        height: 95px;
+    }
+
+    .cards-offers .cards-products .img_detergent {
+        height: 104px;
+        padding-left: 23px !important;
+        padding-top: 3px !important;
+        margin-bottom: 4px;
+    }
+
+    .cards-offers .cards-products button {
+        width: 115px;
+        height: 28px;
+        font-size: 14px;
+        padding: 0px;
+        margin: 22px 0px 13px 14px; 
+        border-radius: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:575px) {
+    section .products{
+        display: none;
+    }
+
     footer {
         display: none;
     }
+
+
 }
