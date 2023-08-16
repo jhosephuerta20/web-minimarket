@@ -318,7 +318,7 @@ footer {
 
     .main-menu {
         width: 100%;
-        margin: 0px 0px 0px 14px;
+        margin: 0px 0px 0px 3px;
     }
     .main-menu ul li a  {
         font-size: 12px;
@@ -331,7 +331,7 @@ footer {
 
     .main-menu ul li {
         width: 100%;
-        margin: 14px 20px 0px 0px;
+        margin: 14px 17px 0px 0px;
     }
 }
 
