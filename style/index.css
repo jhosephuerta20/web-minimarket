@@ -9,6 +9,10 @@ body {
     margin-left: 10px;
 }
 
+.logo .logo02 {
+    display: none;
+}
+
 header {
     display: flex;
 }
@@ -16,8 +20,17 @@ header {
 .main-menu {
     margin-top: 30px;
 }
+
 .main-menu ul{
     display: flex;
+}
+
+.user .user02 {
+    display: none;
+}
+
+.car .car02 {
+    display: none;
 }
 
 .main-menu ul li{
@@ -269,4 +282,95 @@ footer {
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 400;
+}
+
+
+/* RESPONSIVE MOBILE */
+
+/* ESTILOS DEL HEADER */
+
+@media (min-width:320px) and (max-width:575px) {
+
+    header {
+        height: 60px;
+    }
+    .logo .logo01 {
+        display: none;
+    }
+
+    .logo .logo02 {
+        display: block;
+        height: 100%;
+    }
+    .main-menu {
+        height: 43px;
+        margin: 0px;
+    }
+    .logo {
+        margin: 0px;
+        height: 43px;
+        width: 63px;
+    }
+
+    .main-menu ul li a  {
+        width: 40px;
+        height: 24px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .main-menu ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main-menu ul li {
+        width: 50px;
+        height: 24px;
+        margin: 10px 20px 0px 0px;
+    }
+
+    .user .user01 {
+        display: none;
+    }
+
+    .car .car01 {
+        display: none;
+    }
+
+    .user .user02 {
+        display: block;
+    }
+    
+    .car .car02 {
+        display: block;
+    }
+
+    .user h5 {
+        display: none;
+    }
+
+    .car {
+        margin:  24px 0px 0px 0px ;
+        height: 30px;
+        width: 30px;
+    }
+
+    .user {
+        margin: 9px 15px 0px 0px ;
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    section {
+        display: none;
+    }
+    main {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
 }
