@@ -306,7 +306,7 @@ footer {
     }
 
     .logo {
-        margin: 3px 0px 0px 14px;
+        margin: 2px 15px 0px 10px;
         height: 43px;
     }
 
@@ -324,17 +324,12 @@ footer {
         font-size: 12px;
     }
 
-    .main-menu .li_none {
-        display: none;
-    }
-
     .main-menu ul {
         margin: 0px;
         padding: 0px;
     }
 
     .main-menu ul li {
-        width: 100%;
         margin: 14px 17px 0px 0px;
     }
 }
@@ -363,14 +358,12 @@ footer {
     }
 
     .car {
-        margin:  14px 17px 0px 0px ;
-        width: 100%;
+        margin:  14px 3px 0px 0px ;
         height: 25px;
     }
 
     .user {
-        margin: 10px 17px 0px 0px ;
-        width: 100%;
+        margin: 10px 7px 0px 0px ;
         height: 25px;
     }
 
@@ -452,14 +445,10 @@ footer {
         display: none;
     }
 
-    .cards-offers .prodru {
-        margin-right: 35px !important;
-    }
-
     .cards-offers .cards-products {
         width: 172px;
         height: 281px;
-        margin: 2px 0px 0px 28px ;
+        margin: 2px 0px 0px 15px ;
     }
 
     .cards-offers .cards-products p {
