@@ -306,7 +306,7 @@ footer {
     }
 
     .logo {
-        margin: 2px 15px 0px 10px;
+        margin: 2px 15px 0px 5px;
         height: 43px;
     }
 
@@ -317,7 +317,8 @@ footer {
 @media (min-width:320px) and (max-width:575px) {
 
     .main-menu {
-        margin: 0px 0px 0px 19px;
+        width: 100%;
+        margin: 0px 0px 0px 14px;
     }
     .main-menu ul li a  {
         font-size: 12px;
@@ -333,7 +334,7 @@ footer {
     }
 
     .main-menu ul li {
-        margin: 14px 27px 0px 0px;
+        margin: 14px 25px 0px 0px;
     }
 }
 
@@ -451,7 +452,7 @@ footer {
     .cards-offers .cards-products {
         width: 172px;
         height: 281px;
-        margin: 2px 0px 0px 10px ;
+        margin: 2px 0px 0px 5px ;
     }
 
     .cards-offers .cards-products p {
@@ -488,7 +489,41 @@ footer {
     }
 }
 
+/* ESTILOS RESPONSIVE MOBILE SECTION PRODUCTS */
 
+@media (min-width:320px) and (max-width:575px) {
+    .products .section-products {
+        width: 100%;
+        font-size: 32px;
+        text-align: center;
+        height: 49px;
+        background-color: #DBB3B3;
+        margin: 19px 0px 0px 0px ;
+        padding: 5px;
+    }
+
+    .products .card_none {
+        display: none;
+    }
+
+    .products p {
+        font-size: 15px;
+        color: #000;
+    }
+
+    .cards-offers .cards-section {
+        width: 172px;
+        height: 281px;
+        margin: 0px;
+    }
+
+    .cards-offers .cards-section img {
+        width: 100%;
+        height: 147px;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+}
 
 
 
@@ -508,9 +543,7 @@ footer {
 
 
 @media (min-width:320px) and (max-width:575px) {
-    section .products{
-        display: none;
-    }
+   
 
     footer {
         display: none;
