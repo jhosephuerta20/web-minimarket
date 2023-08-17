@@ -317,11 +317,14 @@ footer {
 @media (min-width:320px) and (max-width:575px) {
 
     .main-menu {
-        width: 100%;
-        margin: 0px 0px 0px 3px;
+        margin: 0px 0px 0px 19px;
     }
     .main-menu ul li a  {
         font-size: 12px;
+    }
+
+    .main-menu .li_none {
+        display: none;
     }
 
     .main-menu ul {
@@ -330,7 +333,7 @@ footer {
     }
 
     .main-menu ul li {
-        margin: 14px 17px 0px 0px;
+        margin: 14px 27px 0px 0px;
     }
 }
 
@@ -448,7 +451,7 @@ footer {
     .cards-offers .cards-products {
         width: 172px;
         height: 281px;
-        margin: 2px 0px 0px 15px ;
+        margin: 2px 0px 0px 10px ;
     }
 
     .cards-offers .cards-products p {
