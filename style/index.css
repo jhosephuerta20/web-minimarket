@@ -632,6 +632,7 @@ footer {
     .information .name a {
         font-size: 13px;
         font-weight: 100;
+        font-family: 'Barlow',sans-serif;
         text-align: center;
         padding: 0px;
         margin: 16px 0px 0px 23px ;
@@ -639,13 +640,16 @@ footer {
     }
 
     .location iframe {
-        margin: 0px 0px 0px 50px;
-        width: 260px;
+        margin: 0px 0px 0px 40px;
+        width: 280px;
         height: 259px;
     }
     footer .nane_programmer {
         background-color: #D9D9D9;
         text-align: center;
+        color: #000;
+        font-size: 7px;
+        font-weight: 400;
     }
 }  
 
