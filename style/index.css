@@ -5,6 +5,7 @@
 body {
     margin: 0px;
 }
+
 .logo {
     margin-top: 10px;
     margin-left: 10px;
@@ -22,7 +23,7 @@ header {
     margin-top: 30px;
 }
 
-.main-menu ul{
+.main-menu ul {
     display: flex;
 }
 
@@ -34,14 +35,14 @@ header {
     display: none;
 }
 
-.main-menu ul li{
+.main-menu ul li {
     list-style-type: none;
     margin-left: 60px;
     margin-right: 65px;
 
 }
 
-.main-menu ul li a{
+.main-menu ul li a {
     text-decoration: none;
     font-size: 32px;
     font-family: 'Roboto', sans-serif;
@@ -54,7 +55,7 @@ header {
 }
 
 .user h5 {
-     margin-left: 18px;
+    margin-left: 18px;
     margin-top: 18px;
     width: 134px;
     height: 38px;
@@ -72,7 +73,7 @@ header {
 
 
 /* SECTION STYLES */
- .section {
+.section {
     width: 100%;
     height: 610px;
     background-color: #65C0F2;
@@ -100,15 +101,15 @@ header {
 }
 
 .banner p {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: bold;
     margin-top: 100px;
     margin-left: 120px;
 }
 
-.banner p span{
-    font-family:'Roboto', sans-serif;
+.banner p span {
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: bold;
     background-color: #ff0000;
@@ -133,7 +134,7 @@ header {
     background-color: #F42941;
     width: 100%;
     height: 123px;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     font-weight: bold;
     color: #fff;
@@ -148,17 +149,17 @@ header {
 }
 
 .cards-offers button {
-    border-radius: 20px ;
-    border:1px solid #FF7F00;
+    border-radius: 20px;
+    border: 1px solid #FF7F00;
     font-size: 15px;
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
     background-color: #FF7F00;
     margin: 20px 0 0 80px;
-    padding: 8px 8px 8px 8px ;
+    padding: 8px 8px 8px 8px;
 }
 
-.cards-offers .cards-products{
+.cards-offers .cards-products {
     border: 2px solid #808080;
     border-radius: 4px;
     width: 316px;
@@ -178,6 +179,7 @@ header {
     font-weight: 400;
     margin: 30px 0 30px 50px;
 }
+
 .products {
     margin-bottom: 33px;
 }
@@ -210,6 +212,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .information {
     margin: 0px 0px 0px 53px;
 }
@@ -237,7 +240,7 @@ footer {
     margin-left: 59px;
 }
 
-.information  p {
+.information p {
     width: 350px;
     height: 211px;
     color: #000;
@@ -297,6 +300,7 @@ footer {
         width: 100%;
         margin-bottom: 5px;
     }
+
     .logo .logo01 {
         display: none;
     }
@@ -321,7 +325,8 @@ footer {
         width: 100%;
         margin: 0px 0px 0px 14px;
     }
-    .main-menu ul li a  {
+
+    .main-menu ul li a {
         font-size: 12px;
     }
 
@@ -363,12 +368,12 @@ footer {
     }
 
     .car {
-        margin:  14px 3px 0px 0px ;
+        margin: 14px 3px 0px 0px;
         height: 25px;
     }
 
     .user {
-        margin: 10px 7px 0px 0px ;
+        margin: 10px 7px 0px 0px;
         height: 25px;
     }
 
@@ -443,7 +448,7 @@ footer {
         color: #000;
         font-size: 20px;
         text-align: center;
-        padding: 6px 0px 0px 0px ;
+        padding: 6px 0px 0px 0px;
     }
 
     .cards-offers .card-none {
@@ -453,7 +458,7 @@ footer {
     .cards-offers .cards-products {
         width: 172px;
         height: 281px;
-        margin: 2px 0px 0px 5px ;
+        margin: 2px 0px 0px 5px;
     }
 
     .cards-offers .cards-products p {
@@ -485,7 +490,7 @@ footer {
         height: 28px;
         font-size: 14px;
         padding: 0px;
-        margin: 22px 0px 13px 14px; 
+        margin: 22px 0px 13px 14px;
         border-radius: 10px;
     }
 }
@@ -499,7 +504,7 @@ footer {
         text-align: center;
         height: 49px;
         background-color: #DBB3B3;
-        margin: 19px 0px 0px 0px ;
+        margin: 19px 0px 0px 0px;
         padding: 5px;
     }
 
@@ -544,7 +549,7 @@ footer {
         height: 70px;
         margin: 15px 0px 0px 10px;
     }
-    
+
     .cards-section .images-products {
         width: 140px;
         height: 80px;
@@ -564,7 +569,7 @@ footer {
         height: 28px;
         font-size: 14px;
         padding: 0px;
-        margin: 22px 0px 13px 14px; 
+        margin: 22px 0px 13px 14px;
         border-radius: 10px;
     }
 
@@ -589,9 +594,10 @@ footer {
         font-size: 20px;
         color: #000;
         text-align: center;
-        margin: 16px 0px 0px 0px ;
+        margin: 16px 0px 0px 0px;
         height: 35px;
     }
+
     .information {
         margin: 0px;
     }
@@ -615,7 +621,7 @@ footer {
         margin-left: 30px;
     }
 
-    .icons .icon_footer{
+    .icons .icon_footer {
         margin: 0px 0px 0px 60px;
     }
 
@@ -632,10 +638,10 @@ footer {
     .information .name a {
         font-size: 13px;
         font-weight: 100;
-        font-family: 'Barlow',sans-serif;
+        font-family: 'Barlow', sans-serif;
         text-align: center;
         padding: 0px;
-        margin: 16px 0px 0px 23px ;
+        margin: 16px 0px 0px 23px;
         height: 35px;
     }
 
@@ -644,6 +650,7 @@ footer {
         width: 280px;
         height: 259px;
     }
+
     footer .nane_programmer {
         background-color: #D9D9D9;
         text-align: center;
@@ -651,29 +658,7 @@ footer {
         font-size: 7px;
         font-weight: 400;
     }
-}  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width:320px) and (max-width:575px) {
-   
-
-    
-
-
 }
+
+
+@media (min-width:320px) and (max-width:575px) {}
